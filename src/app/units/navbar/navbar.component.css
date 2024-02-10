@@ -1,0 +1,31 @@
+.form-control{
+ border-color:white;
+}
+
+.btn,.btn-outline{
+    border-color: white;
+}
+
+
+
+
+  .logo{
+    height:80px;
+    width:80px;
+    
+    border-radius: 50px;
+  }
+
+  .nav-item{
+    font-size: 20px;
+  }
+
+  h2{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .navbar-brand{
+    display: flex;
+  }

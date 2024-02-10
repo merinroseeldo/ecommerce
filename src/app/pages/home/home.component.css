@@ -1,0 +1,17 @@
+.maincontainer{
+   
+    width: 100%;
+    
+}
+
+img{
+    object-fit: contain;
+}
+
+
+
+.card{
+  border: none;
+  width: 100%;
+  
+}

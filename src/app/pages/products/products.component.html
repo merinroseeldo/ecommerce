@@ -1,0 +1,20 @@
+
+<div class="prod">
+    <div class="container-fluid ">
+        <div class="row row-ms-1-cols-3">
+          @for (item of data ; track $index) {
+            <div class="col">
+              <div class="card shadow p-3 mb-5 bg-body rounded " style="width: 18rem;height: 450px ;">
+                <img src={{item.image}}  height="200px" class="card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title">{{item.titles}}</h5>
+                  <p class="card-text">{{item.description | slice : 0 :100}}...</p>
+                  <a routerLink="{{item.id}}" class="btn stretched-link">Rs.{{item.price}}</a>
+                </div>
+              </div>
+            </div>
+          }
+        </div>
+    </div>
+
+</div>
